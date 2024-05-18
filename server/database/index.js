@@ -9,7 +9,7 @@ const AppointmentsData = require("../../client/src/dummyData/AppointmentsData.js
 const messages = require("../../client/src/dummyData/messages.json");
 const ReportData = require("../../client/src/dummyData/reports.json");
 
-const connection = new Sequelize("mydb", "root", "Jdidi1994@", {
+const connection = new Sequelize("mydb", "user", "password", {
   host: "localhost",
   dialect: "mysql",
 });
